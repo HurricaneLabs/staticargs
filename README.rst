@@ -6,6 +6,8 @@ staticargs
 Get staticargs
 =============
 
+staticargs supports Python 2 and 3.  Tests are run for 2.7 and 3.4
+
 .. code-block:: shell
 
     pip install staticargs
