@@ -20,12 +20,8 @@ echo $new_version > version
 git add version
 git commit -m "Release $new_version"
 git tag -a $new_version -m "Release $new_version"
-git checkout staging
-git merge develop
-git push origin staging
-git checkout develop
 git push origin develop
 git checkout master
-git pull origin master
+git push origin master
 python setup.py register -r pypi
 python setup.py sdist upload -r pypi
