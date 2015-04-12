@@ -28,6 +28,7 @@ Example
 First view the problem we are going to solve:
 
 .. code-block:: python
+
     >>> def append_cat(cats=[]):
     ...     cats.append("cat")
     ...     return cats
@@ -46,6 +47,7 @@ Well that's not good!  Learn more about this problem and some other Python gotch
 staticargs solves this problem for you
 
 .. code-block:: python
+
     >>> from staticargs import staticargs
     >>> import random
     >>>
