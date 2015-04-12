@@ -41,10 +41,10 @@ First view the problem we are going to solve:
     ['cat', 'cat', 'cat']
     >>>
 
-Well that's not good!  Learn more about this problem and some other Python gotchas by wathcing this amazing presentation from PyCon 2015:  https://youtu.be/sH4XF6pKKmk
+Well that's not good!  Learn more about this problem and some other Python gotchas by watching this amazing presentation from PyCon 2015 (this specific problem is discussed at 8:04):  https://youtu.be/sH4XF6pKKmk
 
 
-staticargs solves this problem for you
+staticargs solves this problem for you:
 
 .. code-block:: python
 
