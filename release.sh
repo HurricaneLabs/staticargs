@@ -22,6 +22,7 @@ git commit -m "Release $new_version"
 git tag -a $new_version -m "Release $new_version"
 git push origin develop
 git checkout master
+git merge develop
 git push origin master
 python setup.py register -r pypi
 python setup.py sdist upload -r pypi
